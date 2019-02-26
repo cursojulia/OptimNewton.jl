@@ -1,5 +1,7 @@
 module OptimNewton
 
-greet() = print("Hello World!")
+export optimize_newton
+
+include("newton.jl")
 
 end # module
